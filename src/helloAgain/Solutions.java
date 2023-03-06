@@ -6,6 +6,7 @@ import java.util.*;
 
 public class Solutions {
     public boolean squareIsWhite(String coordinates) {
+        //Pattern  - if the coordinates are converted to integer and added  - the sum is either even(black) or odd(white)
 
         int num1 = coordinates.charAt(0) - '0';
         int num2 = coordinates.charAt(1);
